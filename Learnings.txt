@@ -1,0 +1,5 @@
+1. Whenever you store the password for connecting Node.js with MongoDB, and if you use Mongoose for the purpose , 
+    if you have any special characters in your password, you need to replace them with their respective percent encoding.
+    REFER : https://www.mongodb.com/docs/atlas/troubleshoot-connection/#special-characters-in-connection-string-password
+
+2. 
