@@ -2,4 +2,10 @@
     if you have any special characters in your password, you need to replace them with their respective percent encoding.
     REFER : https://www.mongodb.com/docs/atlas/troubleshoot-connection/#special-characters-in-connection-string-password
 
-2. 
+2. If you face any issue related to packages and dependencies, just delete the 
+    package.json and node_modules , and then reinstall the package.json
+
+    After dat, run the command "npm install react@latest react-dom@latest" for 
+    the latest version of react.
+
+3. 

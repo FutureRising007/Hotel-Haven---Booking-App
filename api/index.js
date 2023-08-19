@@ -13,7 +13,6 @@ dotenv.config();
 
 const connect = async () => {
   try {
-    mongoose.set("strictQuery", false);
     await mongoose.connect(process.env.MONGO);
     console.log("Connected to mongoDB.");
   } catch (error) {
